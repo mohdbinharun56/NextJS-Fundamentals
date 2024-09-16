@@ -1,5 +1,18 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
+## Next Fundamentals
+A basic landing page design and routing the diferent page are rendered. 
+# Create components
+```bash
+1. header.tsx
+2. titlebar.tsx
+```
+# Folder based Route
+```bash
+1. about
+2. contact
+3. signin
+4. signout
+```
 ## Getting Started
 
 First, run the development server:
