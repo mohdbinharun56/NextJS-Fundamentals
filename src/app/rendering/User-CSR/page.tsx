@@ -25,7 +25,10 @@ export default function Users(){
                 <h1>user List</h1>
                 <ul>
                     {users.map((user,index=0)=>(
-                        <li key={user.id}> {index+1}. {user.name} </li>
+                        <li key={user.id}> 
+                            {index+1}. Name: {user.name} 
+                            {/* address: {user.address} */}
+                        </li>
                     ))}
                 </ul>
             </div>
