@@ -11,6 +11,7 @@ export default function Home() {
     <>
       <TitleBar title="Home"/>
       <Header></Header>
+      {/* <Users></Users> */}
       <div className="banner">
         <h1 className="title-banner">Hello, This is Home!</h1>
         <span className="image-banner">Image</span>
