@@ -1,6 +1,11 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 ## Next Fundamentals
 A basic landing page design and routing the diferent page are rendered. Also implementing the validation using the react hook library for Register Form and vanila JavaScript for validate Signin Form and implment the client side rendering (CSR).
+# Design pattern
+-Logo
+-Navigation
+-Banner
+-Footer
 # Create components
 ```bash
 1. titlebar.tsx
