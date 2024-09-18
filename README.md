@@ -3,8 +3,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 A basic landing page design and routing the diferent page are rendered. 
 # Create components
 ```bash
-1. header.tsx
-2. titlebar.tsx
+1. titlebar.tsx
+2. header.tsx
+3. logo.tsx
+4. navigation.tsx 
+5. footer.tsx 
 ```
 # Folder based Route
 ```bash
@@ -12,6 +15,11 @@ A basic landing page design and routing the diferent page are rendered.
 2. contact
 3. signin
 4. signout
+5. rendering
+6. signin
+7. validation
+  - JavaScriptsFormValidation {use normal JS and react to validate Signin Form}
+  - ReactHookFormValidation {useForm used from react hook library for Form validation using for validate Register/Sign out}
 ```
 ## Rendering
 # Client Side Resndering 
