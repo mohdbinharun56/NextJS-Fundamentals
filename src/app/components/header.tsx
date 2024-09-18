@@ -1,17 +1,22 @@
-import Link from "next/link";
-export default function Header(){
-    return(
+// import Link from "next/link";
+import Image from "next/image";
+export default function Header() {
+    const information = { name: "Mohammad Bin Harun", age: 25 }
+    const { name } = information;
+    return (
         <>
             <header className="header">
-                <nav className="nav">
-                    <ul className="ul">
-                        <Link href={"/"}>Home</Link>
-                        <Link href="about">About</Link>
-                        <Link href="Contact">Contact</Link>
-                        <Link href="SignIn">SignIn</Link>
-                        <Link href="SignUp">SignUp</Link>
-                    </ul>
-                </nav>
+
+
+                <div className="bannersection">
+                    <div>
+                        <h2>This is {name}</h2>
+                        <p className="para">I'M {name}. I have graduated from Computer Science and Engineering at 
+                            <span>American International University Bangladesh</span>
+                        </p>
+                    </div>
+                    <Image src="/Khalid.jpeg" alt="" width="200" height="50"></Image>
+                </div>
             </header>
         </>
     )
