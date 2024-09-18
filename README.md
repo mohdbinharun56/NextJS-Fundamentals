@@ -10,16 +10,28 @@ A basic landing page design and routing the diferent page are rendered. Also imp
 5. footer.tsx 
 ```
 # Folder based Route
-```bash
 1. about
+```bash
+http://localhost:7000/about
+```
 2. contact
-3. signin
-4. signout
-5. rendering
-6. signin
-7. validation
+```bash
+http://localhost:7000/contact
+```
+3. rendering
+```bash
+**Client-Side-Rendering**
+http://localhost:3000/rendering/User-CSR
+```
+4. validation
   - JavaScriptsFormValidation {use normal JS and react to validate Signin Form}
   - ReactHookFormValidation {useForm used from react hook library for Form validation using for validate Register/Sign out}
+```bash
+**Signin**
+http://localhost:7000/validation/JavaScriptsFormValidation
+
+**Signout**
+http://localhost:7000/validation/ReactHookFormValidation
 ```
 ## Rendering
 # Client Side Resndering 
@@ -29,9 +41,6 @@ Client Side Rendering is when a web application rendered entire browser using Ja
   - Third, Rect components takes over the content to load
   - Final, Data is fetched if it's done the loading.
 **Note** Browser can take min second to fetch the data. So, user can see loading while browser are loaded to take the fetch data.
-```bash
-http://localhost:3000/rendering/User-CSR
-```
 
 ## Getting Started
 
