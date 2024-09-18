@@ -24,8 +24,8 @@ http://localhost:7000/contact
 http://localhost:3000/rendering/User-CSR
 ```
 4. validation
-  - JavaScriptsFormValidation {use normal JS and react to validate Signin Form}
-  - ReactHookFormValidation {useForm used from react hook library for Form validation using for validate Register/Sign out}
+  - JavaScriptsFormValidation (use normal JS and react to validate Signin Form)
+  - ReactHookFormValidation (useForm used from react hook library for Form validation using for validate Register/Sign out)
 ```bash
 **Signin**
 http://localhost:7000/validation/JavaScriptsFormValidation
