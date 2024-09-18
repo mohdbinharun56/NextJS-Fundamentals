@@ -18,10 +18,10 @@ export default function Home() {
       </div>
       <Header></Header>
 
-      <div className="textmessage">
+      {/* <div className="textmessage">
         <span>Message:</span>
         <textarea name="text" placeholder="Enter Your Message"></textarea>
-      </div>
+      </div> */}
 
       <div className="box">
         <div className="boxone">
@@ -38,14 +38,6 @@ export default function Home() {
         </div>
       </div>
       <Footer></Footer>
-
-
-      {/* <Users></Users> */}
-      {/* <div className="banner"> */}
-      {/* <h1 className="title-banner">Hello, This is Home!</h1> */}
-      {/* <span className="image-banner">Image</span> */}
-      {/* <Image src="\public\assets\babar.jpeg" alt='Babar' width={200} height={200}/> */}
-      {/* </div> */}
       
     </>
   )

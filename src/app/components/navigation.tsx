@@ -8,8 +8,8 @@ export default function Navigation(){
                         <Link href="/">Home</Link>
                         <Link href="about">About</Link>
                         <Link href="contact">Contact</Link>
-                        <Link href="SignIn">SignIn</Link>
-                        <Link href="SignUp">SignUp</Link>
+                        <Link href="signin">SignIn</Link>
+                        <Link href="validation/ReactHookFormValidation">SignUp</Link>
                     </ul>
                 </nav>
 

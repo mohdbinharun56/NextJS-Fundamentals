@@ -15,7 +15,7 @@ export default function Header() {
                             <span>American International University Bangladesh</span>
                         </p>
                     </div>
-                    <Image src="/Khalid.jpeg" alt="" width="200" height="50"></Image>
+                    <Image src="/MD.jpg" alt="" width="150" height="20"></Image>
                 </div>
             </header>
         </>
