@@ -189,3 +189,13 @@ select {
 .About-Info p {
   line-height: normal;
 }
+
+
+.specify-user{
+  width: 20%;
+  border: 2px solid tomato;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 15px auto 15px auto;
+  box-shadow: 2px 2px 2px 2px tomato;
+}
