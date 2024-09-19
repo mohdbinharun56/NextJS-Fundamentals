@@ -6,7 +6,7 @@ import TitleBar from "./components/titlebar";
 import Logo from "./components/logo";
 import Navigation from "./components/navigation";
 import Link from "next/link";
-import Users from "./loadData/page";
+// import Users from "./loadData/page";
 // import { useEffect } from "react";
 // import { useState } from "react";
 // import Image from 'next/image';
