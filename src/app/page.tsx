@@ -32,7 +32,7 @@ export default function Home() {
       </div>
       <Header></Header>
 
-      <Users></Users>
+      {/* <Users></Users> */}
 
       {/* <div className="textmessage">
         <span>Message:</span>

@@ -1,5 +1,8 @@
+'use client'
 import Header from "../components/header";
 import TitleBar from "../components/titlebar";
+import Users from "../loadData/page";
+// import User from "../user/page";
 // import Users from "../rendering/User-CSR/page";
 
 export default function About() {
@@ -14,6 +17,10 @@ export default function About() {
                     Atque sapiente debitis inventore fuga veniam, quam quia neque accusamus? Quis, dolorum? Nobis reiciendis blanditiis animi magnam recusandae exercitationem rem, in ratione placeat labore. Ipsam nobis eius beatae recusandae expedita?
                     Dignissimos tenetur nulla possimus! Vero necessitatibus quasi quam temporibus cum quaerat accusamus sunt explicabo sit distinctio, reprehenderit in veniam iusto! Laborum sint nemo ipsum repellat? Assumenda perspiciatis doloribus accusamus quo.
                     Rerum voluptate expedita quos reprehenderit facilis nihil voluptas impedit iure ea? Alias adipisci culpa blanditiis magni in! Obcaecati, quod natus. Mollitia voluptatum quae molestiae, amet quasi minus veniam eius at?</p>
+            </section>
+
+            <section>
+                <Users></Users>
             </section>
         </>
     )
